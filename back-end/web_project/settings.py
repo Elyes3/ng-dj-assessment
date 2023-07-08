@@ -22,9 +22,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 print(SECRET_KEY)
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://ng-assessment-annotation.netlify.app']
 
 
 # Application definition
@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders'
 ]
-PROJECT_NAME = 'proj'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -80,15 +79,11 @@ WSGI_APPLICATION = 'web_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+import dj_database_url
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('NAME'),
-        'USER': os.environ.get('USER'),
-        'PASSWORD': os.environ.get('PASSWORD'),
-        'HOST': os.environ.get('HOST_NAME'),
-        'PORT':os.environ.get('PORT')
-    }
+    'default': dj_database_url.config(     
+        default='mysql://uwevqpo6uncepnkb:P4JAhweSJKnh6E53JEwT@bqylb0jkvuvg3doyr3xc-mysql.services.clever-cloud.com:3306/bqylb0jkvuvg3doyr3xc',
+    )
 }
 
 
