@@ -12,13 +12,12 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-import dotenv
-from dotenv import find_dotenv
+from dotenv import find_dotenv,load_dotenv
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-dotenv.load_dotenv(find_dotenv())
+load_dotenv(find_dotenv())
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
