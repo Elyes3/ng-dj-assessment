@@ -1,0 +1,10 @@
+@font-face {
+    font-family: MarkPro;
+    src: url("assets/MarkPro.otf");
+}
+*{
+    font-family: MarkPro;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}

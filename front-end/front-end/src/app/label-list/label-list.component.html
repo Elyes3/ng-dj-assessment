@@ -1,0 +1,16 @@
+<div class="p-5">
+    <div class="d-flex g-5 flex-wrap">
+        <div *ngFor="let label of labelList">
+            <app-label [label]="label" (click)="selectLabel(label)" ></app-label>
+        </div>
+    </div>
+    <div class="mt-5">
+        <span class="fw-bold">SELECTED : </span>
+        <app-label 
+            [label]="selectedLabel.id ? selectedLabel : {
+            annotation : 'None',
+            id : null,
+            bgColor : 'gray'}" >
+        </app-label>
+    </div>
+</div>

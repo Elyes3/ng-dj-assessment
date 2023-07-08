@@ -1,0 +1,52 @@
+:host{
+    --lightgray : rgb(236, 236, 236);
+    --gray : gray;
+    --white : white;
+}
+.h-100{
+    min-height: 100vh;
+}
+.bg-gray{
+    background-color: var(--lightgray);
+}
+.rounded-sm{
+    border-radius : 0.5rem;
+}
+.p-5{
+    padding:1rem;
+}
+.d-flex{
+    display :flex;
+}
+.border-sm-topright-bottomright{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius:0.5rem ;
+    
+}
+.border-dark-gray{
+    border: 2px solid var(--gray);
+}
+.p-2{
+    padding:0.4rem;
+}
+.bg-dark-gray{
+    background-color: var(--gray);
+}
+.cursor-pointer{
+    cursor:pointer
+}
+.text-white{
+    color: var(--white);
+}
+.fw-bold{
+    font-weight: bold;
+}
+.outline-none{
+    outline : none
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}

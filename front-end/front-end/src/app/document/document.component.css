@@ -1,0 +1,15 @@
+:host{
+    --white : #FFF;
+}
+.line-height-md{
+    line-height: 2.5rem;
+}
+.p-5{
+    padding:1rem;
+}
+.bg-white{
+    background-color: var(--white);
+}
+.rounded-sm{
+    border-radius: 0.3rem;
+}

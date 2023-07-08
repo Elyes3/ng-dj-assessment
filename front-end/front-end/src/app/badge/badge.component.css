@@ -1,0 +1,58 @@
+:host{
+    --magenta : #900c4c;
+    --purple :#50148c;
+    --teal :#086464;
+    --orange : #b81c1c;
+    --white : #FFF;
+    --dark : #000;
+    }
+    .bg-white{
+        background-color: var(--white);
+    }
+    .text-dark{
+        color: var(--dark);
+    }
+    .rounded-sm{
+        border-radius : 0.5rem;
+    }
+    .rounded-xs{
+        border-radius : 0.25rem;
+    }
+    .text-uppercase{
+        text-transform: uppercase;
+    }
+    .magenta{
+        background-color : var(--magenta);
+    }
+    .purple{
+        background-color : var(--purple);
+    }
+    .teal{
+        background-color : var(--teal);
+    }
+    .orange{
+        background-color : var(--orange);
+    }
+    .p-2-5{
+        padding : 0.5rem;
+    }
+    .text-white{
+        color : var(--white);
+    }
+    .p-1{
+        padding:0.2rem;
+    }
+    .badge-annotation::after{
+        content : attr(annotation);
+    }
+    .no-select {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .ms-2{
+        margin-left: 0.4rem;
+    }

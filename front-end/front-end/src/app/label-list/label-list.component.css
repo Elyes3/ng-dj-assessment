@@ -1,0 +1,19 @@
+.d-flex{
+    display:flex;
+}
+.g-5{
+    gap:1rem;
+}
+/* Wrapping Elements on screen resize */
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.p-5{
+    padding: 1rem;
+}
+.mt-5{
+    margin-top :1rem;
+}
+.fw-bold{
+    font-weight : bold;
+}

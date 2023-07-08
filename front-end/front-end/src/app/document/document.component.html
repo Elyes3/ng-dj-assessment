@@ -1,0 +1,5 @@
+<div class="p-5 bg-white rounded-sm">
+    <span class="line-height-md" *ngFor="let paragraph of paragraphs" (mouseup)="textSelectionEvent($event)">
+        <span *ngIf="paragraph && paragraph.label && paragraph.text && paragraph.bgColor;else elseBlock"><app-badge [badge]="paragraph"></app-badge></span><ng-template #elseBlock>{{paragraph.text}}</ng-template>
+    </span>
+</div>

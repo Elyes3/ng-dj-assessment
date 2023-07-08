@@ -1,0 +1,17 @@
+
+<div class="h-100 bg-gray">
+<div class="p-5">
+    <input class="p-2 outline-none" type="text" [(ngModel)]="labelText" (keydown.enter)="addLabel()">
+    <button  (click)="addLabel()" class="bg-dark-gray border-sm-topright-bottomright p-2 border-dark-gray cursor-pointer fw-bold text-white fs-15" >+</button>
+</div>
+    <app-label-list [labelList]="labelList" (labelSelected)="selectLabel($event)" [selectedLabel]="selectedLabel"></app-label-list>
+
+<div class="p-5">
+<app-document (textSelected)="mutateText($event)" [paragraphs]="paragraphs"></app-document>
+</div>
+<div class="d-flex justify-center items-center">
+    <button class="p-2 bg-dark-gray text-white bg-dark-gray rounded-sm border-dark-gray cursor-pointer fw-bold" (click)="exportFile()">EXPORT</button>
+</div>
+</div>
+<!--- Design Pattern (DP) -->
+<!--- Container Component (Contains all state + functionality(Business Logic))-->

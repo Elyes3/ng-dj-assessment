@@ -1,0 +1,26 @@
+{
+    "document": "3+ years Swift & Objective-C and experience with iOS internals Experience building an entire app from scratch and ideally a portfolio of apps featured in the App Store Someone who knows every trick in the book on UI transitions, network communication and memory/battery efficiency Strong UI/design skill experience is a plus",
+    "annotations": [
+        {
+            "text": "3+ years Swift",
+            "bgColor": "rgb(120,146,72)",
+            "label": "React",
+            "start": 0,
+            "end": 14
+        },
+        {
+            "text": "Objective-C and experience with iOS",
+            "bgColor": "rgb(81,60,170)",
+            "label": "Vue",
+            "start": 17,
+            "end": 52
+        },
+        {
+            "text": "Experience building an entire app from scratch",
+            "bgColor": "rgb(214,104,247)",
+            "label": "Angular",
+            "start": 63,
+            "end": 109
+        }
+    ]
+}

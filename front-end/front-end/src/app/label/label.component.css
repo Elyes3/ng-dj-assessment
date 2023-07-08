@@ -1,0 +1,42 @@
+/*CSS VARIABLES */
+:host{
+--magenta : #900c4c;
+--purple :#50148c;
+--teal :#086464;
+--orange : #b81c1c;
+--gray : gray;
+--white : #FFF;
+}
+.rounded-sm{
+    border-radius : 0.5rem;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.magenta{
+    background-color : var(--magenta);
+}
+.purple{
+    background-color : var(--purple);
+}
+.teal{
+    background-color : var(--teal);
+}
+.gray{
+    background-color: var(--gray);
+}
+.orange{
+    background-color : var(--orange);
+}
+.p-2-5{
+    padding : 0.5rem;
+}
+.text-white{
+    color : var(--white);
+}
+.fw-bold{
+    font-weight : bold;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
