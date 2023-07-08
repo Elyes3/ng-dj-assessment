@@ -1,44 +1,44 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-front-end/front-end/dist
-front-end/front-end/tmp
-front-end/front-end/out-tsc
-front-end/front-end/bazel-out
+front-end/dist
+front-end/tmp
+front-end/out-tsc
+front-end/bazel-out
 # Node
-front-end/front-end/node_modules
-front-end/front-end/npm-debug.log
-front-end/front-end/yarn-error.log
+front-end/node_modules
+front-end/npm-debug.log
+front-end/yarn-error.log
 
 # IDEs and editors
-front-end/front-end/.idea/
-front-end/front-end/.project
-front-end/front-end/.classpath
-front-end/front-end/.c9/
-front-end/front-end/*.launch
-front-end/front-end/.settings/
-front-end/front-end/*.sublime-workspace
+front-end/.idea/
+front-end/.project
+front-end/.classpath
+front-end/.c9/
+front-end/*.launch
+front-end/.settings/
+front-end/*.sublime-workspace
 
 # Visual Studio Code
-front-end/front-end/.vscode/*
-front-end/front-end/!.vscode/settings.json
-front-end/front-end/!.vscode/tasks.json
-front-end/front-end/!.vscode/launch.json
-front-end/front-end/!.vscode/extensions.json
-front-end/front-end/.history/*
+front-end/.vscode/*
+front-end/!.vscode/settings.json
+front-end/!.vscode/tasks.json
+front-end/!.vscode/launch.json
+front-end/!.vscode/extensions.json
+front-end/.history/*
 
 # Miscellaneous
-front-end/front-end/.angular/cache
-front-end/front-end/.sass-cache/
-front-end/front-end/connect.lock
-front-end/front-end/coverage
-front-end/front-end/libpeerconnection.log
-front-end/front-end/testem.log
-front-end/front-end/typings
+front-end/.angular/cache
+front-end/.sass-cache/
+front-end/connect.lock
+front-end/coverage
+front-end/libpeerconnection.log
+front-end/testem.log
+front-end/typings
 
 # System files
-front-end/front-end/.DS_Store
-front-end/front-end/Thumbs.db
+front-end/.DS_Store
+front-end/Thumbs.db
 
 # PYTHON-----------------------------------------------------------------------------
 # Django #
@@ -54,127 +54,127 @@ back-end/Django_p1/*.bak
 
 # If you are using PyCharm # 
 # User-specific stuff
-back-end/Django_p1/.idea/**/workspace.xml
-back-end/Django_p1/.idea/**/tasks.xml
-back-end/Django_p1/.idea/**/usage.statistics.xml
-back-end/Django_p1/.idea/**/dictionaries
-back-end/Django_p1/.idea/**/shelf
+back-end/.idea/**/workspace.xml
+back-end/.idea/**/tasks.xml
+back-end/.idea/**/usage.statistics.xml
+back-end/.idea/**/dictionaries
+back-end/.idea/**/shelf
 
 # AWS User-specific
-back-end/Django_p1/.idea/**/aws.xml
+back-end/.idea/**/aws.xml
 
 # Generated files
-back-end/Django_p1/.idea/**/contentModel.xml
+back-end/.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-back-end/Django_p1/.idea/**/dataSources/
-back-end/Django_p1/.idea/**/dataSources.ids
-back-end/Django_p1/.idea/**/dataSources.local.xml
-back-end/Django_p1/.idea/**/sqlDataSources.xml
-back-end/Django_p1/.idea/**/dynamic.xml
-back-end/Django_p1/.idea/**/uiDesigner.xml
-back-end/Django_p1/.idea/**/dbnavigator.xml
+back-end/.idea/**/dataSources/
+back-end/.idea/**/dataSources.ids
+back-end/.idea/**/dataSources.local.xml
+back-end/.idea/**/sqlDataSources.xml
+back-end/.idea/**/dynamic.xml
+back-end/.idea/**/uiDesigner.xml
+back-end/.idea/**/dbnavigator.xml
 
 # Gradle
-back-end/Django_p1/.idea/**/gradle.xml
-back-end/Django_p1/.idea/**/libraries
+back-end/.idea/**/gradle.xml
+back-end/.idea/**/libraries
 
 # File-based project format
-back-end/Django_p1/*.iws
+back-end/*.iws
 
 # IntelliJ
-back-end/Django_p1/out/
+back-end/out/
 
 # JIRA plugin
-back-end/Django_p1/atlassian-ide-plugin.xml
+back-end/atlassian-ide-plugin.xml
 
 # Python # 
-back-end/Django_p1/*.py[cod] 
-back-end/Django_p1/*$py.class 
+back-end/*.py[cod] 
+back-end/*$py.class 
 
 # Distribution / packaging 
-back-end/Django_p1/.Python build/ 
-back-end/Django_p1/develop-eggs/ 
-back-end/Django_p1/dist/ 
-back-end/Django_p1/downloads/ 
-back-end/Django_p1/eggs/ 
-back-end/Django_p1/.eggs/ 
-back-end/Django_p1/lib/ 
-back-end/Django_p1/lib64/ 
-back-end/Django_p1/parts/ 
-back-end/Django_p1/sdist/ 
-back-end/Django_p1/var/ 
-back-end/Django_p1/wheels/ 
-back-end/Django_p1/*.egg-info/ 
-back-end/Django_p1/.installed.cfg 
-back-end/Django_p1/*.egg 
-back-end/Django_p1/*.manifest 
-back-end/Django_p1/*.spec 
+back-end/.Python build/ 
+back-end/develop-eggs/ 
+back-end/dist/ 
+back-end/downloads/ 
+back-end/eggs/ 
+back-end/.eggs/ 
+back-end/lib/ 
+back-end/lib64/ 
+back-end/parts/ 
+back-end/sdist/ 
+back-end/var/ 
+back-end/wheels/ 
+back-end/*.egg-info/ 
+back-end/.installed.cfg 
+back-end/*.egg 
+back-end/*.manifest 
+back-end/*.spec 
 
 # Installer logs 
-back-end/Django_p1/pip-log.txt 
-back-end/Django_p1/pip-delete-this-directory.txt 
+back-end/pip-log.txt 
+back-end/pip-delete-this-directory.txt 
 
 # Unit test / coverage reports 
-back-end/Django_p1/htmlcov/ 
-back-end/Django_p1/.tox/ 
-back-end/Django_p1/.coverage 
-back-end/Django_p1/.coverage.* 
-back-end/Django_p1/.cache 
-back-end/Django_p1/.pytest_cache/ 
-back-end/Django_p1/nosetests.xml 
-back-end/Django_p1/coverage.xml 
+back-end/htmlcov/ 
+back-end/.tox/ 
+back-end/.coverage 
+back-end/.coverage.* 
+back-end/.cache 
+back-end/.pytest_cache/ 
+back-end/nosetests.xml 
+back-end/coverage.xml 
 *.cover 
-back-end/Django_p1/.hypothesis/ 
+back-end/.hypothesis/ 
 
 # Jupyter Notebook 
-back-end/Django_p1/.ipynb_checkpoints 
+back-end/.ipynb_checkpoints 
 
 # pyenv 
-back-end/Django_p1/.python-version 
+back-end/.python-version 
 
 # celery 
-back-end/Django_p1/celerybeat-schedule.* 
+back-end/celerybeat-schedule.* 
 
 # SageMath parsed files 
-back-end/Django_p1/*.sage.py 
+back-end/*.sage.py 
 
 # Environments 
-back-end/Django_p1/.env 
-back-end/Django_p1/.venv 
-back-end/Django_p1/env/ 
-back-end/Django_p1/venv/ 
-back-end/Django_p1/ENV/ 
-back-end/Django_p1/env.bak/ 
-back-end/Django_p1/venv.bak/ 
+back-end/.env 
+back-end/.venv 
+back-end/env/ 
+back-end/venv/ 
+back-end/ENV/ 
+back-end/env.bak/ 
+back-end/venv.bak/ 
 
 # mkdocs documentation 
-back-end/Django_p1/site 
+back-end/site 
 
 # mypy 
-back-end/Django_p1/.mypy_cache/ 
+back-end/.mypy_cache/ 
 
 # Sublime Text # 
-back-end/Django_p1/*.tmlanguage.cache 
-back-end/Django_p1/*.tmPreferences.cache 
-back-end/Django_p1/*.stTheme.cache 
-back-end/Django_p1/*.sublime-workspace 
-back-end/Django_p1/*.sublime-project 
+back-end/*.tmlanguage.cache 
+back-end/*.tmPreferences.cache 
+back-end/*.stTheme.cache 
+back-end/*.sublime-workspace 
+back-end/*.sublime-project 
 
 # sftp configuration file 
-back-end/Django_p1/sftp-config.json 
+back-end/sftp-config.json 
 
 # Package control specific files Package 
-back-end/Django_p1/Control.last-run 
-back-end/Django_p1/Control.ca-list 
-back-end/Django_p1/Control.ca-bundle 
-back-end/Django_p1/Control.system-ca-bundle 
-back-end/Django_p1/GitHub.sublime-settings 
+back-end/Control.last-run 
+back-end/Control.ca-list 
+back-end/Control.ca-bundle 
+back-end/Control.system-ca-bundle 
+back-end/GitHub.sublime-settings 
 
 # Visual Studio Code # 
-back-end/Django_p1/.vscode/* 
-back-end/Django_p1/!.vscode/settings.json 
-back-end/Django_p1/!.vscode/tasks.json 
-back-end/Django_p1/!.vscode/launch.json 
-back-end/Django_p1/!.vscode/extensions.json 
-back-end/Django_p1/.history
+back-end/.vscode/* 
+back-end/!.vscode/settings.json 
+back-end/!.vscode/tasks.json 
+back-end/!.vscode/launch.json 
+back-end/!.vscode/extensions.json 
+back-end/.history
