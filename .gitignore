@@ -147,7 +147,7 @@ back-end/venv/
 back-end/ENV/ 
 back-end/env.bak/ 
 back-end/venv.bak/ 
-
+back-end/web_project/.env
 # mkdocs documentation 
 back-end/site 
 
