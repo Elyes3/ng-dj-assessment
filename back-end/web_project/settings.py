@@ -55,6 +55,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:4200',
+    'https://ng-assessment-annotation.netlify.app/'
 ]
 
 ROOT_URLCONF = 'web_project.urls'
