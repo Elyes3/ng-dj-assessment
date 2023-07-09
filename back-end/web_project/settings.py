@@ -51,9 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:4200',
-    'https://ng-assessment-annotation.netlify.app'
+CORS_ALLOWED_ORIGINS = ['*'
 ]
 
 ROOT_URLCONF = 'web_project.urls'
