@@ -24,7 +24,7 @@ print(SECRET_KEY)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://ng-assessment-annotation.netlify.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
