@@ -3,5 +3,3 @@ django
 django-cors-headers
 djangorestframework
 mysqlclient
-dj_database_url
-poetry
