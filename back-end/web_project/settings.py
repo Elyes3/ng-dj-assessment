@@ -80,7 +80,7 @@ DATABASES = {
         'PORT':os.environ.get('PORT')
     }
 }
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://*']
 
 
 # Password validation
