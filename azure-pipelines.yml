@@ -41,7 +41,8 @@ steps:
       print('##vso[task.setvariable variable=projectRoot]{}'.format(project_location))
 
 - script: |
-  cd back-end && ./build.sh
+  cd back-end
+  ./build.sh
   displayName: 'Install prerequisites'
 
 - script: |
